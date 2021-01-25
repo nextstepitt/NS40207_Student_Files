@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace TC3.Models
+{
+    public partial class Customer
+    {
+        public Customer()
+        {
+            CustomerCards = new HashSet<CustomerCard>();
+            SalesOrders = new HashSet<SalesOrder>();
+        }
+
+        public int CustomerId { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string StateProvince { get; set; }
+        public string PostalCode { get; set; }
+        public string CountryCodeId { get; set; }
+        public DateTime? Birthdate { get; set; }
+        public string Confirmation { get; set; }
+
+        public virtual CountryCode CountryCode { get; set; }
+        public virtual ICollection<CustomerCard> CustomerCards { get; set; }
+        public virtual ICollection<SalesOrder> SalesOrders { get; set; }
+    }
+}
