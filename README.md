@@ -1,8 +1,8 @@
 ![](.common/nsbanner.png?raw=true)
 
-# [Insert Course Number] [Insert Course Title] - Student Files
+# NS40207 Unit Testing and TDD with C# and xUnit - Student Files
 
-This project contains the lab framework for the [insert course title] class.
+This project contains the lab framework for the Unit Testing and TDD with C# and xUnit class.
 You may clone the framework or download a zip of the framework on this page.
 There are working solutions for all of the labs, and example projects, that may be a good reference for building React programs
 with TypeScript even if you are not interested in the course.
@@ -28,21 +28,19 @@ monitors or working in an environment with a projection screen to follow what th
 ```
 Student_Files
 │
-└── [Insert Course Title]
+└── NS40207_Student_Files
     └── Examples
-    │    └── 02_[insert chapter title]
+    │    └── 02_xUnit
     │    └── ...
     │ 
     └── Labs
-    │       .gitignore
+    │    └── TC3       
     │ 
     └── Resources
-    │    └── 02_[insert chapter title]
+    │    └── 02_xUnit
     │    └── ...
     │ 
     └── Solutions
-        └── 01_Overview
-        └── 02_[insert chapter title]
         └── ...
 ```
 
@@ -57,4 +55,4 @@ Student_Files
 the necessary node packages, then "npm start" to launch the application.]
 
 <hr>
-Copyright © [Insert copyright years] NextStep IT Training. All rights reserved.
+Copyright © 2018-2021 NextStep IT Training. All rights reserved.
